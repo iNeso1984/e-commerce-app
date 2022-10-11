@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&family=Nunito:ital,wght@0,400;0,800;1,300&display=swap');
+
+
+:root{
+  --mainWhite:#F3f3f3;
+  --mainLightTan: #D9D8D0;
+  --mainTan:#BFBEB0;
+  --mainGray:#A4A6A6;
+  --mainBlack:#0D0D0D;
+
+}
+body{
+font-family: 'Alegreya Sans', sans-serif !important;
+font-family: 'Nunito', sans-serif !important;
+background-color: var(--mainWhite) !important;
+color:var(--mainBlack ) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-title{
+  font-family:'Nunito', sans-serif ;
+  letter-spacing: 0.3 rem;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-dark{
+  color: var(--mainBlack);
+}
+.text-light{
+  color:var(--mainTan)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*Navbar*/
+
+.navbar-brand{
+  width: 80px;
+}
+.navbar{
+color:var(--mainBlack);
+list-style:none;
+font-family: 'Alegreya Sans', sans-serif;
+
+
+}
+.nav-item{
+  text-align: right !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

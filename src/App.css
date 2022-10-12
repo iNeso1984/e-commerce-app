@@ -34,6 +34,8 @@ color:var(--mainBlack ) !important;
 
 .navbar-brand{
   width: 80px;
+  border-radius: 50px;
+  background-color: var(--mainTan);
 }
 .navbar{
 color:var(--mainBlack);
@@ -42,7 +44,42 @@ font-family: 'Alegreya Sans', sans-serif;
 
 
 }
+
 .nav-item{
-  text-align: right !important;
+ float: right !important;
+}
+.fa-cart-plus{
+  float: right !important;
+
 }
 
+.btn {
+  display: inline-block;
+  background: transparent;
+
+  text-transform: uppercase;
+  font-weight: 500;
+ 
+  font-style: normal;
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  color: var(--mainBlack);
+  border-radius: 0;
+  padding: 10px 5px 10px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(223,190,106,0.8), rgba(146,111,52,0.8), rgba(34,34,34,0), rgba(34,34,34,0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  text-decoration: none;
+  margin: 0.625rem;
+  border: none;
+  border: 3px solid var(--mainTan);
+}
+
+
+.btn:hover {
+  color: #fff;
+  border: 1px solid rgba(223,190,106,0);
+  color:white;
+  background-position: 99% 50%;
+}

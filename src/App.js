@@ -11,6 +11,7 @@ import Default from "./components/Default";
 import Details from "./components/Details";
 import Cart from "./components/Cart";
 
+
 function App() {
   return (
     <>

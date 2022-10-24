@@ -6,8 +6,8 @@ https://www.iconfinder.com/Makoto_msk */
 export const storeProducts = [
     {
       id: 1,
-      title: "Leather Black Tote",
-      img: "img/black.jpeg",
+      title: "Orange Leather Messenger Bag",
+      img: "img/orange.png",
       price: 109,
       company: "LUXE",
       info:
@@ -18,8 +18,8 @@ export const storeProducts = [
     },
     {
       id: 2,
-      title: "Blue Leather Crossbody Bag",
-      img: "img/blue.jpeg",
+      title: "Red Leather Duffle Bag",
+      img: "img/red.png",
       price: 165,
       company: "LUXE",
       info:
@@ -30,8 +30,8 @@ export const storeProducts = [
     },
     {
       id: 3,
-      title: "Charcoal Bucket Bag",
-      img: "img/grey.jpeg",
+      title: "Yellow Satchell",
+      img: "img/yellow2.png",
       price: 200,
       company: "LUXE",
       info:
@@ -42,8 +42,8 @@ export const storeProducts = [
     },
     {
       id: 4,
-      title: "Pink Leather Handbag",
-      img: "img/pink.jpeg",
+      title: "Brown Satchell Bag",
+      img: "img/brown2.png",
       price: 115,
       company: "LUXE",
       info:
@@ -54,8 +54,8 @@ export const storeProducts = [
     },
     {
       id: 5,
-      title: "Red Leather Clutch",
-      img: "img/product-5.png",
+      title: "Lily Messenger Bag",
+      img: "img/brown.png",
       price: 45,
       company: "htc",
       info:
@@ -66,8 +66,8 @@ export const storeProducts = [
     },
     {
       id: 6,
-      title: "Leather White Crossbody Bag",
-      img: "img/white.jpg",
+      title: "Silver Small Handbag",
+      img: "img/white.png",
       price: 80,
       company: "LUXE",
       info:
@@ -78,8 +78,8 @@ export const storeProducts = [
     },
     {
       id: 7,
-      title: "White Leather Crossbody Bag",
-      img: "img/product-7.png",
+      title: "Black Leather Crossbody Bag",
+      img: "img/black.png",
       price: 65,
       company: "LUXE",
       info:
@@ -91,7 +91,7 @@ export const storeProducts = [
     {
       id: 8,
       title: "Yellow Leather Clutch",
-      img: "img/yellow.jpeg",
+      img: "img/yellow.png",
       price: 75,
       company: "LUXE",
       info:

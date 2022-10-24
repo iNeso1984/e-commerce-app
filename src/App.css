@@ -13,9 +13,10 @@
 body{
 font-family: 'Alegreya Sans', sans-serif !important;
 font-family: 'Nunito', sans-serif !important;
-background-color: var(--mainWhite) !important;
+background-color: var(--mainLightTan) !important;
 color:var(--mainBlack ) !important;
 }
+
 
 .text-title{
   font-family:'Nunito', sans-serif ;
@@ -83,3 +84,13 @@ font-family: 'Alegreya Sans', sans-serif;
   color:white;
   background-position: 99% 50%;
 }
+div.card{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+
+
+

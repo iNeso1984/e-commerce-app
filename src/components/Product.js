@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 // import { ProductConsumer } from './Context';
+import PropTypes from 'prop-types';
 
 export default class Product extends Component {
 
@@ -18,8 +19,21 @@ export default class Product extends Component {
         <Link to="/Details">
           <img src={img} alt="handbag img" className="card-img-top"></img>
         </Link>
-        <Button variant="dark" className="detail-btn" disabled ={inCart ? true :false} onClick={()=>{console.log("added to cart")}}>Details</Button> 
+   
+        <Button variant="dark" className="cart-btn" disabled ={inCart ? true :false} onClick={()=>{console.log("added to cart")}}>
+        {inCart?(<p className="text-capitalize mb-0" disabled>{""}in cart</p>):(<i className="fas fa-cart-plus"/>)}
+        </Button>
         
+        
+        </div>
+
+        {/* footer */}
+
+        <div className="card-footer d-flex justify-content-between">
+          <p className="align-self-center mb-0">{title}</p>
+          <h5 className="text-blue font italic mb-0">
+            <span className="mr-1">$</span>{price}
+          </h5>
         </div>
       </div>
       </Card.Body>
@@ -27,5 +41,14 @@ export default class Product extends Component {
     )
   }
 }
+Product.propTypes={
+  product:PropTypes.shape({
+    id:PropTypes.number,
+    img:PropTypes.string,
+    title:PropTypes.string,
+    price:PropTypes.number,
+    inCar:PropTypes.bool
+  }).isRequired
+};
 // const ProductWrapper= styled.div 
 

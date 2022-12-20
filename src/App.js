@@ -5,7 +5,6 @@ import React from "react";
 import {Switch, Route} from "react-router-dom"
 // const element = <FontAwesomeIcon icon={faHome} />
 import Navbar from "./components/Navbar";
-
 import ProductList from "./components/ProductList";
 import Default from "./components/Default";
 import Details from "./components/Details";

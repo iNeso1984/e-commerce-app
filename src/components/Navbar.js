@@ -9,13 +9,13 @@ export default class Navbar extends Component {
     return (
       
       <NavWrapper className="navbar ">
-        <Link>
+        <Link to="/">
           <img src={icon} alt="store logo" className="navbar-brand" />
         </Link>
         <ul className="navbar-nav">
           <li className="nav-item navbar-nav ml-5">
             <Link to="/" className="nav-link">
-             Products
+             View Products
             </Link>
           </li>
           </ul>
